@@ -27,7 +27,6 @@ spec:
         name: spring-petclinic
       imagePullSecrets:
       - name: harbor-registry
-
 ---
 apiVersion: v1
 kind: Service
