@@ -25,7 +25,7 @@ spec:
         app: spring-petclinic
     spec:
       containers:
-      - image: harbor.devvnocsymphony.com/java-spring/petclinic:20
+      - image: harbor.devvnocsymphony.com/java-spring/petclinic:65
         imagePullPolicy: Always
         name: spring-petclinic
 
