@@ -23,8 +23,7 @@ spec:
         app: spring-petclinic
     spec:
       containers:
-      imagePullSecrets:
-      - name: harbor-registry
+      imagePullSecrets: harbor-registry
       - image: harbor.devvnocsymphony.com/java-spring/petclinic:65
         imagePullPolicy: Always
         name: spring-petclinic
