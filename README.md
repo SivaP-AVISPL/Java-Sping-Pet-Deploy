@@ -1,2 +1,2 @@
-# Java-Sping-Pet-Deploy
-Java-Sping-Pet-Deploy
+# Java-Spring-Pet-Deploy
+Java-Spring-Pet-Deploy
