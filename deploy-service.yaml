@@ -24,7 +24,6 @@ spec:
     spec:
       containers:
       - image: harbor.devvnocsymphony.com/java-spring/petclinic:65
-        imagePullPolicy: Always
         name: spring-petclinic
       imagePullSecrets:
       - name: harbor-registry
