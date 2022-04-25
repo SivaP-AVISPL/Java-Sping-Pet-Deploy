@@ -13,8 +13,6 @@ metadata:
   name: spring-petclinic
   namespace: petclinic-demo
 spec:
-  imagePullSecrets:
-  - name: harbor-registry
   replicas: 1
   selector:
     matchLabels:
@@ -25,6 +23,8 @@ spec:
         app: spring-petclinic
     spec:
       containers:
+      imagePullSecrets:
+      - name: harbor-registry
       - image: harbor.devvnocsymphony.com/java-spring/petclinic:20
         imagePullPolicy: Always
         name: spring-petclinic
