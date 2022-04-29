@@ -23,10 +23,11 @@ spec:
         app: spring-petclinic
     spec:
       containers:
-      - image: harbor.devvnocsymphony.com/java-spring/petclinic:2
+        #      - image: harbor.devvnocsymphony.com/java-spring/petclinic:2
+      - image: registry.vnocsymphony.com/development/hello/world:latest
         name: spring-petclinic
       imagePullSecrets:
-      - name: harbor-registry
+      - name: central-harbor-registry
 ---
 apiVersion: v1
 kind: Service
